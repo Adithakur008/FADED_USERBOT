@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 server.py & python3 -m Zaid  
  repo:
-https://github.com/Sagexdd/USERBOT2    
+https://github.com/TEAMPURVI/ALPHA_USERBOT    
     branch: master
     envVars:
       - key: SUDO_USERS 
