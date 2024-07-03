@@ -1,5 +1,5 @@
 {
-    "name": "𝗭𝗘𝗨𝗦 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
+    "name": "𝗔𝗟𝗣𝗛𝗔 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
     "logo": "https://telegra.ph/file/6e8bb5bb7cd3a4a534683.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
@@ -7,7 +7,7 @@
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
-            "description": "fill with the telethon session string",
+            "description": "fill with the Pyrogram v2 session string",
             "required": true
         },
         "MONGO_URL": {
