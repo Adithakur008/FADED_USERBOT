@@ -3,17 +3,17 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 
 <p align="center">⚡️𝗔𝗟𝗣𝗛𝗔-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
 
-<img src="https://graph.org/file/bbae2c50b58056ecc4df7.jpg">
+<img src="https://telegra.ph/file/e3ed76840546bf50de846.jpg">
 
 <p align="center">⚡️𝗔 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗜𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
 
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TEAMPURVI&repo=ALPHA_USERBOT&theme=flag-india)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=DESTROYER_USERBOT&theme=flag-india)
 
-[![GIF](https://github.com/TEAMPURVI/PURVI_MUSIC/blob/main/DAXXTEAM.gif)](https://github.com/TEAMPURVI)
-   [![RAUSHAN](https://github-stats-alpha.vercel.app/api?username=TEAMPURVI "RAUSHAN")](https://github-stats-alpha.vercel.app/api?username=TEAMPURVI "RAUSHAN")
+[![GIF](https://github.com/Adithakur008/DESTROYER_USERBOT/blob/main/DAXXTEAM.gif)](https://github.com/TEAMPURVI)
+   [![RAUSHAN](https://github-stats-alpha.vercel.app/api?username=Adithakur008 "RAUSHAN")](https://github-stats-alpha.vercel.app/api?username=Adithakur008 "RAUSHAN")
    
 ## Requirements 
 
@@ -33,7 +33,7 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 
 [ꜰᴏʀᴋ ᴅᴇᴘʟᴏʏ ɪꜱ ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅᴇᴅ](https://telegra.ph/file/5bcf79f948ca06030640c.mp4)
 
-<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/purvimusic/ALPHA_USERBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/Adithakur008/DESTROYER_USERBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## Features 
 
