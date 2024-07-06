@@ -16,7 +16,7 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
            [
-                InlineKeyboardButton("⚡𝙾𝚆𝙽𝙴𝚁 💕⚡", url="t.me/your_alpha_baby"),
+                InlineKeyboardButton("⚡𝙾𝚆𝙽𝙴𝚁 💕⚡", url="t.me/ll_Destroyer_of_worldd_ll"),
             ],
             [
                 InlineKeyboardButton("⚡𝚄𝙿𝙳𝙰𝚃𝙴𝚂 💕⚡", url="t.me/purvi_updates"),
@@ -36,11 +36,11 @@ async def clone(bot: app, msg: Message):
     cmd = msg.command
     phone = msg.command[1]
     try:
-        await text.edit("2 𝗦𝗘𝗖𝗢𝗡𝗗 𝗥𝗨𝗞 𝗕𝗦𝗗𝗞...💌")
+        await text.edit("𝗪𝗔𝗜𝗧 𝗞𝗔𝗥𝗢 𝗝𝗔𝗡𝗘𝗠𝗔𝗡...💌")
                    # change this Directry according to ur repo
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f" 💘𝗔𝗕 𝗟𝗔𝗚 𝗥𝗔𝗛𝗘 𝗛𝗢 𝗢𝗥𝗜𝗚𝗜𝗡𝗔𝗟 𝗪𝗔𝗟𝗔 𝗔𝗟𝗣𝗛𝗔 𝗣𝗔𝗣𝗔 𝗞𝗔 𝗕𝗘𝗧𝗔 𝗝𝗔𝗢 𝗕𝗛𝗢𝗦𝗗𝗔 𝗙𝗔𝗗 𝗗𝗢 𝗦𝗔𝗕𝗞𝗜 ❥ {user.first_name} 💨.")
+        await msg.reply(f" 💘 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗗𝗘𝗦𝗧𝗥𝗢𝗬𝗘𝗥 𝗪𝗢𝗥𝗟𝗗 𝗔𝗕 @ll_Destroyer_of_worldd_ll 𝗞𝗢 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟𝗢 𝗢𝗥 𝗦𝗔𝗕𝗞𝗜 𝗚𝗔𝗡𝗗 𝗠𝗔𝗥 𝗟𝗢...💀☠️ ❥ {user.first_name} 💨.")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
