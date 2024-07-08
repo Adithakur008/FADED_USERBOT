@@ -1,7 +1,7 @@
 <img
 src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">⚡️𝗔𝗟𝗣𝗛𝗔-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
+<p align="center">⚡️DESTROYER-USERBOT⚡️</p>
 
 <img src="https://telegra.ph/file/e3ed76840546bf50de846.jpg">
 
