@@ -1,9 +1,9 @@
 {
-    "name": "𝗔𝗟𝗣𝗛𝗔 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
-    "logo": "https://telegra.ph/file/6e8bb5bb7cd3a4a534683.jpg",
+    "name": "DESTROYER USERBOT",
+    "logo": "https://telegra.ph/file/01ab9649b01d7022569db.jpg"
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/Sagexdd/USERBOT2",
+    "repository": "https://github.com/Adithakur008/DESTROYER_USERBOT",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
