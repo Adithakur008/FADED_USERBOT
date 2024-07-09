@@ -17,14 +17,14 @@ if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝗔𝗟𝗣𝗛𝗔 ⚡️ **\n\n"
+        f"** ⚡️ 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 ⚡️ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹𝗣ᴜʀᴠɪ ᴍᴜsɪᴄ 𝘀ᴜᴘᴘᴏʀᴛ˼ ||](t.me/Purvi_UPdates)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝗔𝗟𝗣𝗛𝗔](t.me/ur_alpha_baby)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝗥𝗔𝗨𝗦𝗛𝗔𝗡](t.me/your_alpha_baby)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [||ENVI ᴍᴜsɪᴄ 𝘀ᴜᴘᴘᴏʀᴛ˼||](https://t.me/+vqDQ2VZjafRkNWE1)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑](t.me/ll_Destroyer_of_worldd_ll)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑](t.me/ll_Destroyer_of_worldd_ll)"        
     )
 
 @Client.on_message(
