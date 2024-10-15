@@ -22,10 +22,6 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 - Python 3.8+ or 3.7
 - [Mongo Db](https://youtu.be/mnvjt_a5JYA)
 
-## String Session
-
-<p align="center"><a href="https://t.me/king_string_sesion_bot"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
-
 
 ## 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓𝐒
 
