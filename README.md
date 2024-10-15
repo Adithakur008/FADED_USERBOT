@@ -12,7 +12,7 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=DESTROYER_USERBOT&theme=flag-india)
 
-[![GIF](https://github.com/Adithakur008/DESTROYER_USERBOT/blob/main/DAXXTEAM.gif)](https://github.com/TEAMPURVI)
+[![GIF](https://github.com/Adithakur008/DESTROYER_USERBOT/blob/main/DAXXTEAM.gif)](https://github.com/Adithakur008)
    [![RAUSHAN](https://github-stats-alpha.vercel.app/api?username=Adithakur008 "RAUSHAN")](https://github-stats-alpha.vercel.app/api?username=Adithakur008 "RAUSHAN")
    
 ## Requirements 
