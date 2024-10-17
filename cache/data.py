@@ -93,11 +93,11 @@ RAID = [
     "MALUM NA PHR KESE LETA HU M TERI MA KI CHUT TAPA TAPPPPP",
     "LUND KE CHODE TU KEREGA TYPIN",
     "SPEED PKD LWDEEEE",
-    "@ll_Destroyer_of_worldd_ll BAAP KI SPEED MTCH KRRR",
+    "@ll_destroyerr_ll BAAP KI SPEED MTCH KRRR",
     "LWDEEE",
     "PAPA KI SPEED MTCH NHI HO RHI KYA",
     "ALE ALE MELA BCHAAAA",
-    "CHUD GYA PAPA  @ll_Destroyer_of_worldd_ll SEE",
+    "CHUD GYA PAPA  @ll_destroyerr_ll SEE",
     "KISAN KO KHODNA OR DESTROYER KO CHODNA NHI SEEKHATE",
     "SALE RAPEKL KRDKA TERA",
     "HAHAHAAAAA",
@@ -205,13 +205,13 @@ RAID = [
 ]
 
 
-GRP = "https://t.me/+vqDQ2VZjafRkNWE1"
+GRP = ""
 
-GROUP = [-1002109623803]
+GROUP = []
 
-VERIFIED_USERS = [6858958430,5882907976]
+VERIFIED_USERS = []
 
-Owners = "@ll_Destroyer_of_worldd_ll|@ll_WAR_MN8_ll"
+Owners = "@ll_destroyerr_ll"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
