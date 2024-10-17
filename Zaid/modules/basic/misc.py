@@ -11,27 +11,27 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/axjvss.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 ⚡️ **\n\n"
+        f"** 🕷 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 🕷 **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [||ENVI ᴍᴜsɪᴄ 𝘀ᴜᴘᴘᴏʀᴛ˼||](https://t.me/+vqDQ2VZjafRkNWE1)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑](t.me/ll_Destroyer_of_worldd_ll)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑](t.me/ll_Destroyer_of_worldd_ll)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [||𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓||](https://t.me/SANATANI_SUPPORT)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐓𝐄𝐍𝐒𝐈𝐎𝐍 𝐓𝐄𝐂𝐇 ](https://t.me/tension_tech)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑](t.me/ll_destroyerr_ll)"        
     )
 
 @Client.on_message(
     filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
-    xx = await message.reply_text("⚡️")
+    xx = await message.reply_text("🕷")
     try:
        await message.delete()
     except:
@@ -53,23 +53,23 @@ async def alive(client: Client, message: Message):
 
 @Client.on_message(filters.command("repo", ".") & filters.me)
 async def repo(bot: Client, message: Message):
-    await message.edit("⚡")
+    await message.edit("🕷")
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/TEAMPURVI/ALPHA_USERBOT\nFork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nLUND LELOOO 🕷")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/Sagexdd")
+    await message.edit("TERA BAAP DESTROYER 🕷")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
 async def uptime(bot: Client, message: Message):
     now = datetime.now()
     current_uptime = now - START_TIME
-    await message.edit(f"Uptime ⚡\n" f"```{str(current_uptime).split('.')[0]}```")
+    await message.edit(f"Uptime 🕷\n" f"```{str(current_uptime).split('.')[0]}```")
 
 
 @Client.on_message(filters.command("id", ".") & filters.me)
