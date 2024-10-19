@@ -4,10 +4,10 @@ services:
     name: Zaid
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py 
+    startCommand: python3 server.py & python3 -m Zaid  
  repo:
 https://github.com/Adithakur008/DESYROYER_USERBOT   
-    branch: master
+    branch: main
     envVars:
       - key: SUDO_USERS 
         sync: false
