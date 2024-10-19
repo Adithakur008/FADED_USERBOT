@@ -41,7 +41,7 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 
 ## Deploy To Render 
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/TEAMPURVI/ALPHA_USERBOT)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Adithakur008/DESTROYER_USERBOT)
 
 
 ```
