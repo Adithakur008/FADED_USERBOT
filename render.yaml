@@ -7,7 +7,7 @@ services:
     startCommand: python3 server.py & python3 -m Zaid  
  repo:
 https://github.com/Adithakur008/DESYROYER_USERBOT   
-    branch: main
+    branch: master
     envVars:
       - key: SUDO_USERS 
         sync: false
