@@ -11,8 +11,7 @@ def __list_all_modules():
         for f in mod_paths
         if isfile(f)
         and f.endswith(".py")
-        and not f.endswith("__init__.py")
-    ]
+        and not f.endswith("__init__.py")]
 
     return all_modules
 
