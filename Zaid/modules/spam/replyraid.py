@@ -16,7 +16,7 @@ from Zaid.database.rraid import *
 from Zaid import SUDO_USER
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = int(7037832227)
+DEVS = int(7557718680)
 from Zaid.helper.PyroHelpers import get_ub_chats
 from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
 SUDO_USERS = SUDO_USER
@@ -78,7 +78,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of 𝟺sᴛ."
+                text = f"ᴛʜᴀᴛ ɢᴜʏ ɪs ᴘᴀʀᴛ ᴏғ sᴀɴᴀᴛᴀɴɪ ᴡᴏʀʟᴅ."
                 await e.reply_text(text)
           else:
               fname = ok.first_name
@@ -105,7 +105,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of 𝟺sᴛ."
+                text = f"ᴛʜᴀᴛ ɢᴜʏ ɪs ᴘᴀʀᴛ ᴏғ sᴀɴᴀᴛᴀɴɪ ᴡᴏʀʟᴅ."
                 await e.reply_text(text)
           else:
               fname = ok.first_name
