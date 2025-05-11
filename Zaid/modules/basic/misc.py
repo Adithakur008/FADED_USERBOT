@@ -11,20 +11,20 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://files.catbox.moe/axjvss.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/nhgdv0.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 🕷 𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑 🕷 **\n\n"
+        f"** 🚩𝐒ᴀɴᴀᴛᴀɴɪ🔱 **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [||𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓||](https://t.me/SANATANI_SUPPORT)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐓𝐄𝐍𝐒𝐈𝐎𝐍 𝐓𝐄𝐂𝐇 ](https://t.me/tension_tech)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐃𝐄𝐒𝐓𝐑𝐎𝐘𝐄𝐑](t.me/ll_destroyerr_ll)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [||𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓❤‍🔥||](https://t.me/SANATANI_SUPPORT)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐓𝐄𝐂𝐇🔱 ](https://t.me/SANATANI_TECH)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐅𝐀𝐃𝐄𝐃🐉](t.me/ll_FADED_HU_ll)"        
     )
 
 @Client.on_message(
