@@ -53,23 +53,23 @@ async def alive(client: Client, message: Message):
 
 @Client.on_message(filters.command("repo", ".") & filters.me)
 async def repo(bot: Client, message: Message):
-    await message.edit("🕷")
+    await message.edit("🐉")
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nLUND LELOOO 🕷")
+    await message.edit("Here is repo: \n\n\n 𝐂𝐇𝐎𝐂𝐎 𝐋𝐄𝐋𝐎 💦")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("TERA BAAP DESTROYER 🕷")
+    await message.edit("𝐅𝐀𝐃𝐄𝐃 🐉")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
 async def uptime(bot: Client, message: Message):
     now = datetime.now()
     current_uptime = now - START_TIME
-    await message.edit(f"Uptime 🕷\n" f"```{str(current_uptime).split('.')[0]}```")
+    await message.edit(f"Uptime 🐉\n" f"```{str(current_uptime).split('.')[0]}```")
 
 
 @Client.on_message(filters.command("id", ".") & filters.me)
