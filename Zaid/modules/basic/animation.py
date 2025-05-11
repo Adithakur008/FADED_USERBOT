@@ -344,7 +344,6 @@ async def gkahgagw(client: Client, message: Message):
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
         "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [sᴀɴᴀᴛᴀɴɪ ᴏᴘ](https://t.me/SANATANI_TECH) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
     ]
-    ]
     if message.forward_from:
         return
     await message.edit("ding..dong..ding..dong ...")
