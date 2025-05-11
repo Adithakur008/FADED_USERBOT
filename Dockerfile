@@ -1,10 +1,18 @@
 FROM python:3.9.7-slim-buster
-RUN apt-get update && apt-get upgrade -y
-RUN apt-get install git curl python3-pip ffmpeg -y
-RUN pip3 install -U pip
-RUN python3 -m pip install --upgrade pip
+
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get install -y git curl python3-pip ffmpeg gnupg && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install --upgrade pip
+
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get update && apt-get install -y nodejs && \
+    npm install -g npm
+
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install -U -r requirements.txt
-RUN curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
-CMD ["bash","start.sh"]
+
+RUN pip3 install -r requirements.txt
+
+CMD ["bash", "start.sh"]
