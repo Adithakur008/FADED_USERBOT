@@ -9,6 +9,6 @@ def restart():
 
 async def join(client):
     try:
-        await client.join_chat("sagebotxsupports")
+        await client.join_chat("SANATANI_SUPPORT")
     except BaseException:
         pass
