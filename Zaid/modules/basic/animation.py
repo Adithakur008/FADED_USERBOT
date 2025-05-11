@@ -341,15 +341,17 @@ async def gkahgagw(client: Client, message: Message):
         "⬜⬜⬛⬜⬜\n⬜⬜⬜⬛⬜\n⬜⬜⬜⬜🔴",
         "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
-        "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜", 
+        "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
+        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [sᴀɴᴀᴛᴀɴɪ ᴏᴘ](https://t.me/SANATANI_TECH) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+    ]
     ]
     if message.forward_from:
         return
-    await message.edit("ding..dong..ding..dong ...".sleep(4)
+    await message.edit("ding..dong..ding..dong ...")
+    await asyncio.sleep(4)
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
         await message.edit(animation_chars[i % 10])
-
 
 @Client.on_message(filters.command("hypo", ".") & filters.me)
 async def okihakga(client: Client, message: Message):
