@@ -16,7 +16,7 @@ _SCRTXT = """
 
 
 🥷 **Scrapped By ->** {}
-👨‍🎤 **Developed By ->** @ll_destroyerr_ll 🐲
+👨‍🎤 **Developed By ->** @SANATANI_TECH 🐲
 """
 
 
@@ -60,7 +60,7 @@ async def cc_scraper(c, m):
         str(txt.count("\n")),
         m.from_user.mention,
     )
-    file = f"x{limit} CC Scrapped by ZaidUB.txt"
+    file = f"x{limit} CC Scrapped by sanatniUB.txt"
     with open(file, "w+") as f:
         f.write(txt)
     del txt
