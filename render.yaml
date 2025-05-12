@@ -14,7 +14,7 @@ https://github.com/Adithakur008/DESTROYER_USERBOT
       - key: BOT_TOKEN 
         sync: false
       - key: OWNER_ID 
-        sync: false
+        sync: 7557718680
       - key: STRING_SESSION1
         sync: false
       - key: MONGO_URL
