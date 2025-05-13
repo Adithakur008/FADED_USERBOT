@@ -27,7 +27,7 @@ from config import GIT_TOKEN, REPO_URL, BRANCH
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-from Zaid.modules.help import add_command_help
+from Faded.modules.help import add_command_help
 HAPP = None
 
 
@@ -90,7 +90,7 @@ requirements_path = path.join(
 
 
 def restart():
-    os.execvp(sys.executable, [sys.executable, "-m", "Zaid"])
+    os.execvp(sys.executable, [sys.executable, "-m", "Faded"])
 
 async def is_heroku():
     return "heroku" in socket.getfqdn()
@@ -254,7 +254,7 @@ async def upstream(client: Client, message: Message):
         await status.edit(
             "`Sanatani-Userbot Successfully Updated! Userbot can be used again.`",
         )
-        args = [sys.executable, "-m", "Zaid"]
+        args = [sys.executable, "-m", "Faded"]
         execle(sys.executable, *args, environ)
         return
 

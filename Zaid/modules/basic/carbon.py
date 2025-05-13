@@ -6,9 +6,9 @@ from pyrogram.types import Message
 
 
 
-from Zaid.helper.PyroHelpers import ReplyCheck
+from Faded.helper.PyroHelpers import ReplyCheck
 
-from Zaid.modules.help import add_command_help
+from Faded.modules.help import add_command_help
 
 
 async def make_carbon(code):

@@ -1,11 +1,11 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
 DEVS = [7037832227, 5959308905]
-from Zaid.helper.PyroHelpers import get_ub_chats
-from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
-from Zaid.database import gbandb as Zaid
-from Zaid.database import gmutedb as Gmute
-from Zaid.modules.help import add_command_help
+from Faded.helper.PyroHelpers import get_ub_chats
+from Faded.modules.basic.profile import extract_user, extract_user_and_reason
+from Faded.database import gbandb as Faded
+from Faded.database import gmutedb as Gmute
+from Faded.modules.help import add_command_help
 
 ok = []
 
@@ -28,7 +28,7 @@ async def gban_user(client: Client, message: Message):
         except Exception:
             return await ex.edit("`Please specify a valid user!`")
 
-    if (await Zaid.gban_info(user.id)):
+    if (await Faded.gban_info(user.id)):
         return await ex.edit(
             f"[user](tg://user?id={user.id}) **it's already on the gbanned list**"
         )
@@ -43,7 +43,7 @@ async def gban_user(client: Client, message: Message):
             done += 1
         except BaseException:
             er += 1
-    await Zaid.gban_user(user.id)
+    await Faded.gban_user(user.id)
     ok.append(user.id)
     msg = (
         r"**\\#GBanned_User//**"
@@ -72,7 +72,7 @@ async def ungban_user(client: Client, message: Message):
             return await ex.edit("`Please specify a valid user!`")
 
     try:
-        if not (await Zaid.gban_info(user.id)):
+        if not (await Faded.gban_info(user.id)):
             return await ex.edit("`User already ungban`")
         ung_chats = await get_ub_chats(client)
         ok.remove(user.id)
@@ -86,7 +86,7 @@ async def ungban_user(client: Client, message: Message):
                 done += 1
             except BaseException:
                 er += 1
-        await Zaid.ungban_user(user.id)
+        await Faded.ungban_user(user.id)
         msg = (
             r"**\\#UnGbanned_User//**"
             f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})"
@@ -103,7 +103,7 @@ async def ungban_user(client: Client, message: Message):
 
 @Client.on_message(filters.command("listgban", ".") & filters.me)
 async def gbanlist(client: Client, message: Message):
-    users = (await Zaid.gban_list())
+    users = (await Faded.gban_list())
     ex = await message.edit_text("`Processing...`")
     if not users:
         return await ex.edit("No Users have been Banned yet")
@@ -229,7 +229,7 @@ if ok:
     chat_id = message.chat.id
     if not user_id:
         return
-    if (await Zaid.gban_info(user_id)):
+    if (await Faded.gban_info(user_id)):
         try:
             await client.ban_chat_member(chat_id, user_id)
         except BaseException:

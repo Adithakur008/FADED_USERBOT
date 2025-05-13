@@ -12,8 +12,8 @@ from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 DEVS = ["7037832227", "5959308905"]
 admins_in_chat = {}
 
-from Zaid.modules.help import add_command_help
-from Zaid.modules.basic.profile import extract_user
+from Faded.modules.help import add_command_help
+from Faded.modules.basic.profile import extract_user
 
 async def extract_user_and_reason(message, sender_chat=False):
     args = message.text.strip().split()

@@ -1,4 +1,4 @@
-from Zaid import app, API_ID, API_HASH
+from Faded import app, API_ID, API_HASH
 from config import ALIVE_PIC
 from pyrogram import filters
 import os
@@ -38,7 +38,7 @@ async def clone(bot: app, msg: Message):
     try:
         await text.edit("𝗪𝗔𝗜𝗧 𝗞𝗔𝗥 𝗖𝗛𝗨𝗧𝗜𝗬𝗘𝗘 ...☠️")
                    # change this Directry according to ur repo
-        client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
+        client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Faded/modules"))
         await client.start()
         user = await client.get_me()
         await msg.reply(f" 💘 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 𝗪𝗢𝗥𝗟𝗗 𝗔𝗕 @ll_FADED_HU_ll 𝗞𝗢 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟𝗢 𝗢𝗥 𝗦𝗔𝗕𝗞𝗜 𝗚𝗔𝗡𝗗 𝗠𝗔𝗥 𝗟𝗢...💀☠️ ❥ {user.first_name} 💨.")

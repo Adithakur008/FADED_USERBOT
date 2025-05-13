@@ -6,13 +6,13 @@ from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from cache.data import *
-from Zaid.database.rraid import *
-from Zaid import SUDO_USER
+from Faded.database.rraid import *
+from Faded import SUDO_USER
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
 DEVS = int(1669178360)
-from Zaid.helper.PyroHelpers import get_ub_chats
-from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
+from Faded.helper.PyroHelpers import get_ub_chats
+from Faded.modules.basic.profile import extract_user, extract_user_and_reason
 SUDO_USERS = SUDO_USER
 from .replyraid import RAIDS
 

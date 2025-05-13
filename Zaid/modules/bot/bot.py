@@ -4,10 +4,10 @@ from pyrogram import Client, filters
 from pyrogram.errors import MessageDeleteForbidden
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
-from Zaid import CMD_HELP, app
-from Zaid.helper.data import Data
-from Zaid.helper.inline import cb_wrapper, paginate_help
-from Zaid import ids as users
+from Faded import CMD_HELP, app
+from Faded.helper.data import Data
+from Faded.helper.inline import cb_wrapper, paginate_help
+from Faded import ids as users
 
 @Client.on_callback_query()
 async def _callbacks(_, callback_query: CallbackQuery):

@@ -3,7 +3,7 @@ from re import findall
 
 from pyrogram import Client, filters
 
-from Zaid import SUDO_USER
+from Faded import SUDO_USER
 
 
 _SCRTXT = """

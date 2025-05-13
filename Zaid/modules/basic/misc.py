@@ -5,11 +5,11 @@ from platform import python_version
 from pyrogram import __version__, filters, Client
 from pyrogram.types import Message
 from config import ALIVE_PIC, ALIVE_TEXT
-from Zaid import START_TIME
-from Zaid import SUDO_USER
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.help import add_command_help
-from Zaid.modules.bot.inline import get_readable_time
+from Faded import START_TIME
+from Faded import SUDO_USER
+from Faded.helper.PyroHelpers import ReplyCheck
+from Faded.modules.help import add_command_help
+from Faded.modules.bot.inline import get_readable_time
 
 alive_logo = ALIVE_PIC or "https://files.catbox.moe/nhgdv0.jpg"
 

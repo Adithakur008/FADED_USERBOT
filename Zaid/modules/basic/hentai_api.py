@@ -3,8 +3,8 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 
-from Zaid.helper.aiohttp_helper import AioHttp
-from Zaid.modules.help import add_command_help
+from Faded.helper.aiohttp_helper import AioHttp
+from Faded.modules.help import add_command_help
 
 cf_api_data = {
     "anime": {

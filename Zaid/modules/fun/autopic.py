@@ -7,9 +7,9 @@ from shutil import copyfile
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import filters, Client
 
-from Zaid import SUDO_USER
-from Zaid.helper.basic import eor
-from Zaid.modules.help import add_command_help
+from Faded import SUDO_USER
+from Faded.helper.basic import eor
+from Faded.modules.help import add_command_help
 
 
 __XOR = []
@@ -49,7 +49,7 @@ async def _autopic(_, delay):
 @Client.on_message(
     filters.command(["autopic"], ".") & (filters.me | filters.user(SUDO_USER))
 )
-async def autopic_zaid(_, m):
+async def autopic_Faded(_, m):
     global __XOR
     arc = await eor(m, "...")
     if bool(__XOR):

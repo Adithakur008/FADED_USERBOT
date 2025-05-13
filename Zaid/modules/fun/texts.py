@@ -6,11 +6,11 @@ import uwuify
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import GetUserMentionable
-from Zaid.helper.aiohttp_helper import AioHttp
-from Zaid.helper.constants import Fs, MEMES, Weebify
-from Zaid.helper.utility import get_mock_text
-from Zaid.modules.help import add_command_help
+from Faded.helper.PyroHelpers import GetUserMentionable
+from Faded.helper.aiohttp_helper import AioHttp
+from Faded.helper.constants import Fs, MEMES, Weebify
+from Faded.helper.utility import get_mock_text
+from Faded.modules.help import add_command_help
 
 
 @Client.on_message(filters.command("lorem", ".") & filters.me)

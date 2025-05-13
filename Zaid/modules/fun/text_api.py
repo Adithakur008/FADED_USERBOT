@@ -2,9 +2,9 @@ from aiohttp.client_exceptions import ClientError
 from pyrogram import filters, Client 
 from pyrogram.types import Message
 
-from Zaid import SUDO_USER
-from Zaid.helper.aiohttp_helper import AioHttp
-from Zaid.modules.help import add_command_help
+from Faded import SUDO_USER
+from Faded.helper.aiohttp_helper import AioHttp
+from Faded.modules.help import add_command_help
 
 text_apis_data = {
     "compliment": {

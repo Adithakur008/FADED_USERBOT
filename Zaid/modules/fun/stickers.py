@@ -4,8 +4,8 @@ import random
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.help import add_command_help
+from Faded.helper.PyroHelpers import ReplyCheck
+from Faded.modules.help import add_command_help
 
 sticker_data = {
     "mock": {

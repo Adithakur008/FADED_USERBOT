@@ -1,1 +1,1 @@
-from Zaid.modules.help.help import *
+from Faded.modules.help.help import *

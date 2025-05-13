@@ -6,11 +6,11 @@ from pyrogram import Client, filters
 from pyrogram.raw import functions
 from pyrogram.types import Message
 
-from Zaid import StartTime, app, SUDO_USER
-from Zaid.helper.PyroHelpers import SpeedConvert
-from Zaid.modules.bot.inline import get_readable_time
+from Faded import StartTime, app, SUDO_USER
+from Faded.helper.PyroHelpers import SpeedConvert
+from Faded.modules.bot.inline import get_readable_time
 
-from Zaid.modules.help import add_command_help
+from Faded.modules.help import add_command_help
 
 class WWW:
     SpeedTest = (

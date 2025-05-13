@@ -5,10 +5,10 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.basic.profile import extract_user
+from Faded.helper.PyroHelpers import ReplyCheck
+from Faded.modules.basic.profile import extract_user
 
-from Zaid.modules.help import add_command_help
+from Faded.modules.help import add_command_help
 
 
 @Client.on_message(filters.command(["whois", "info"], ".") & filters.me)

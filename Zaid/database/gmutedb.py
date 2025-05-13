@@ -1,4 +1,4 @@
-from Zaid.database import cli
+from Faded.database import cli
 
 gmuteh = cli["GMUTE"]
 

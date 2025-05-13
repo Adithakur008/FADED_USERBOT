@@ -27,9 +27,9 @@ from pyrogram.raw.functions.messages import GetStickerSet
 from pyrogram.raw.types import InputStickerSetShortName
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import ReplyCheck
+from Faded.helper.PyroHelpers import ReplyCheck
 
-from Zaid.modules.help import add_command_help
+from Faded.modules.help import add_command_help
 
 
 async def add_text_img(image_path, text):
