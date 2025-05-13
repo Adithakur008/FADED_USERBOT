@@ -22,16 +22,16 @@ else:
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [||𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓❤‍🔥||](https://t.me/SANATANI_SUPPORT)\n"
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓❤‍🔥](https://t.me/SANATANI_SUPPORT)\n"
         f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐓𝐄𝐂𝐇🔱 ](https://t.me/SANATANI_TECH)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐅𝐀𝐃𝐄𝐃🐉](t.me/ll_FADED_HU_ll)"        
+        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐅𝐀𝐃𝐄𝐃🚩](t.me/ll_FADED_HU_ll)"        
     )
 
 @Client.on_message(
-    filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["alive", "fadedop"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
-    xx = await message.reply_text("🕷")
+    xx = await message.reply_text("🚩")
     try:
        await message.delete()
     except:
@@ -53,23 +53,23 @@ async def alive(client: Client, message: Message):
 
 @Client.on_message(filters.command("repo", ".") & filters.me)
 async def repo(bot: Client, message: Message):
-    await message.edit("🐉")
+    await message.edit("❤‍🔥")
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\n 𝐂𝐇𝐎𝐂𝐎 𝐋𝐄𝐋𝐎 💦")
+    await message.edit("Here is repo: \n\n\n 𝐆𝐀𝐍𝐃 𝐃𝐎 𝐓𝐁 𝐑𝐄𝐏𝐎 𝐃𝐔𝐍𝐆𝐀 🌚💦")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("𝐅𝐀𝐃𝐄𝐃 🐉")
+    await message.edit(" 🔱@ll_FADED_HU_ll🚩")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
 async def uptime(bot: Client, message: Message):
     now = datetime.now()
     current_uptime = now - START_TIME
-    await message.edit(f"Uptime 🐉\n" f"```{str(current_uptime).split('.')[0]}```")
+    await message.edit(f"Uptime 🚩\n" f"```{str(current_uptime).split('.')[0]}```")
 
 
 @Client.on_message(filters.command("id", ".") & filters.me)
