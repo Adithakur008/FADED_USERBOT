@@ -72,6 +72,7 @@ async def uptime(bot: Client, message: Message):
     await message.edit(f"Uptime 🚩\n" f"```{str(current_uptime).split('.')[0]}```")
 
 
+
 @Client.on_message(filters.command("id", ".") & filters.me)
 async def get_id(bot: Client, message: Message):
     file_id = None
