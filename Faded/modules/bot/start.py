@@ -19,7 +19,7 @@ async def hello(client: app, message):
                 InlineKeyboardButton("🕊𝙾𝚆𝙽𝙴𝚁🥀", url="t.me/CRY4DED_FR"),
             ],
             [
-                InlineKeyboardButton("🕊𝚄𝙿𝙳𝙰𝚃𝙴𝚂🥀", url="https://t.me/LOVE_VERSEE"),
+                InlineKeyboardButton("🕊𝚄𝙿𝙳𝙰𝚃𝙴𝚂🥀", url="https://t.me/AB4OUT_ME"),
             ],
             [
                 InlineKeyboardButton("🕊𝚂𝚄𝙿𝙿𝙾𝚁𝚃🥀", url="https://t.me/PWSTUDENTSSS"),
@@ -41,6 +41,6 @@ async def clone(bot: app, msg: Message):
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Faded/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f" 💝 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗙𝗔𝗗𝗘𝗗 𝗪𝗢𝗥𝗟𝗗 𝗔𝗕 @CRY4DED_FR 𝗞𝗢 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟𝗢 𝗢𝗥 𝗦𝗔𝗕𝗞𝗜 𝗚𝗔𝗡𝗗 𝗠𝗔𝗥 𝗟𝗢...👻 ❥ {user.first_name} 💨.")
+        await msg.reply(f" 💝 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗙𝗔𝗗𝗘𝗗 𝗪𝗢𝗥𝗟𝗗 𝗔𝗕 @AB4OUT_ME 𝗞𝗢 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟𝗢 𝗢𝗥 𝗦𝗔𝗕𝗞𝗜 𝗚𝗔𝗡𝗗 𝗠𝗔𝗥 𝗟𝗢...👻 ❥ {user.first_name} 💨.")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
