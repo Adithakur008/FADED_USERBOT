@@ -211,7 +211,7 @@ GROUP = []
 
 VERIFIED_USERS = []
 
-Owners = "@SANATANI_TECH"
+Owners = "@AB4OUT_ME"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
