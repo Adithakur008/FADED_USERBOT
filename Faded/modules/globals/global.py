@@ -1,6 +1,6 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = [7037832227, 5959308905]
+DEVS = [7728451001]
 from Faded.helper.PyroHelpers import get_ub_chats
 from Faded.modules.basic.profile import extract_user, extract_user_and_reason
 from Faded.database import gbandb as Faded
