@@ -3,7 +3,7 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 
 <p align="center">⚡️FADED-USERBOT⚡️</p>
 
-<img src="https://telegra.ph/file/e3ed76840546bf50de846.jpg">
+<img src="https://files.catbox.moe/h1xa2a.jpg">
 
 <p align="center">⚡️𝗔 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗜𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
 
