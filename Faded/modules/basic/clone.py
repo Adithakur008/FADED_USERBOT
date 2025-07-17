@@ -9,7 +9,7 @@ from Faded.helper.basic import edit_or_reply, get_text, get_user
 from Faded.modules.help import *
 
 OWNER = os.environ.get("OWNER", " 𝗙𝗔𝗗𝗘𝗗 🐉𝗻")
-BIO = os.environ.get("BIO", "❤‍🔥𓆩𝗨𝗥 𝗗𝗔𝗗𝗗𝗬 𝗙𝗔𝗗𝗘𝗗𓆪🔱 (@SANATANI_SUPPORT) ")
+BIO = os.environ.get("BIO", "❤‍🔥𓆩𝗨𝗥 𝗗𝗔𝗗𝗗𝗬 𝗙𝗔𝗗𝗘𝗗𓆪🔱 (@AB4OUT_ME) ")
 
 
 @Client.on_message(filters.command("clone", ".") & filters.me)
