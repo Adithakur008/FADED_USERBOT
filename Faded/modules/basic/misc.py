@@ -11,27 +11,27 @@ from Faded.helper.PyroHelpers import ReplyCheck
 from Faded.modules.help import add_command_help
 from Faded.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://files.catbox.moe/nhgdv0.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/h1xa2a.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 🚩𝐒ᴀɴᴀᴛᴀɴɪ🔱 **\n\n"
+        f"** ❤‍🔥 𝐅ᴀᴅᴇᴅ ⚡ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐒𝐔𝐏𝐏𝐎𝐑𝐓❤‍🔥](https://t.me/SANATANI_SUPPORT)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐒𝐀𝐍𝐀𝐓𝐀𝐍𝐈 𝐓𝐄𝐂𝐇🔱 ](https://t.me/SANATANI_TECH)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐅𝐀𝐃𝐄𝐃🚩](t.me/ll_FADED_HU_ll)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏 🌺](https://t.me/PWSTUDENTSSS)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐀𝐁𝐎𝐔𝐓 𝐌𝐄 🌷](https://t.me/AB4OUT_ME)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐅𝐀𝐃𝐄𝐃 🕊](t.me/CRY4DED_FR)"        
     )
 
 @Client.on_message(
     filters.command(["alive", "fadedop"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
-    xx = await message.reply_text("🚩")
+    xx = await message.reply_text("🕊")
     try:
        await message.delete()
     except:
@@ -53,7 +53,7 @@ async def alive(client: Client, message: Message):
 
 @Client.on_message(filters.command("repo", ".") & filters.me)
 async def repo(bot: Client, message: Message):
-    await message.edit("❤‍🔥")
+    await message.edit("🕊")
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
@@ -62,14 +62,14 @@ async def repo(bot: Client, message: Message):
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit(" 🔱@ll_FADED_HU_ll🚩")
+    await message.edit(" 🕊@CRY4DED_FR❤‍🔥")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
 async def uptime(bot: Client, message: Message):
     now = datetime.now()
     current_uptime = now - START_TIME
-    await message.edit(f"Uptime 🚩\n" f"```{str(current_uptime).split('.')[0]}```")
+    await message.edit(f"Uptime ⚡\n" f"```{str(current_uptime).split('.')[0]}```")
 
 
 
