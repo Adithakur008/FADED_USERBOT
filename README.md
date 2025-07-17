@@ -1,7 +1,7 @@
 <img
 src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">⚡️DESTROYER-USERBOT⚡️</p>
+<p align="center">⚡️FADED-USERBOT⚡️</p>
 
 <img src="https://telegra.ph/file/e3ed76840546bf50de846.jpg">
 
@@ -10,9 +10,9 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=DESTROYER_USERBOT&theme=flag-india)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=FADED_USERBOT&theme=flag-india)
 
-[![GIF](https://github.com/Adithakur008/DESTROYER_USERBOT/blob/main/DAXXTEAM.gif)](https://github.com/Adithakur008)
+[![GIF](https://github.com/Adithakur008/FADED_USERBOT/blob/main/DAXXTEAM.gif)](https://github.com/Adithakur008)
    [![RAUSHAN](https://github-stats-alpha.vercel.app/api?username=Adithakur008 "RAUSHAN")](https://github-stats-alpha.vercel.app/api?username=Adithakur008 "RAUSHAN")
    
 ## Requirements 
