@@ -6,6 +6,7 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 <p align="center">⚡️FADED-USERBOT⚡️</p>
 
 <img src="https://files.catbox.moe/h1xa2a.jpg">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🕊+⚡+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗙𝗔𝗗𝗘𝗗+🕊+⚡"></b></h3>
 <img
 src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img
