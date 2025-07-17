@@ -16,7 +16,7 @@ from Faded.database.rraid import *
 from Faded import SUDO_USER
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = int(7557718680)
+DEVS = int(7728451001)
 from Faded.helper.PyroHelpers import get_ub_chats
 from Faded.modules.basic.profile import extract_user, extract_user_and_reason
 SUDO_USERS = SUDO_USER
@@ -78,7 +78,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"ᴛʜᴀᴛ ɢᴜʏ ɪs ᴘᴀʀᴛ ᴏғ sᴀɴᴀᴛᴀɴɪ ᴡᴏʀʟᴅ."
+                text = f"ᴛʜᴀᴛ ɢᴜʏ ɪs ᴘᴀʀᴛ ᴏғ ғᴀᴅᴇᴅ."
                 await e.reply_text(text)
           else:
               fname = ok.first_name
@@ -105,7 +105,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"ᴛʜᴀᴛ ɢᴜʏ ɪs ᴘᴀʀᴛ ᴏғ sᴀɴᴀᴛᴀɴɪ ᴡᴏʀʟᴅ."
+                text = f"ᴛʜᴀᴛ ɢᴜʏ ɪs ᴘᴀʀᴛ ᴏғ ғᴀᴅᴇᴅ."
                 await e.reply_text(text)
           else:
               fname = ok.first_name
