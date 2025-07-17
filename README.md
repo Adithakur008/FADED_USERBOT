@@ -12,8 +12,15 @@ src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-
 <img
 src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<h2> <img src="https://github.com/Adithakur008/FADED_USERBOT/blob/main/cat_gif.gif" width="90px"> 𝐅𝐀𝐃𝐄𝐃 🌷 <img src = "https://github.com/Adithakur008/FADED_USERBOT/blob/main/cat1.gif" width="90px"> </h1>
+
+<img
+src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">⚡️𝗔 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗜𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
+
+<img
+src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
