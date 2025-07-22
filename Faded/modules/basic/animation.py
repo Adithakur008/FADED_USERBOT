@@ -643,7 +643,7 @@ async def zeyenk(client: Client, message: Message):
     await e.edit("💕💞💘💝")
     await e.edit("💘💕💞💝")
     await e.edit("LOVE YOU CUTE SI JAAN 💞")
-    await e.edit("🎀 FADED LOVE CRYSTAL🌷")
+    await e.edit("🎀FADED HU BBY 😽🌷")
 
 @Client.on_message(filters.command("gabut", ".") & filters.me)
 async def menggabut(client: Client, message: Message):
