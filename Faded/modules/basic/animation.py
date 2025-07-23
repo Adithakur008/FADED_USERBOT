@@ -870,6 +870,29 @@ async def helikopter(client: Client, message: Message):
         "╬═╬/ \\ \n",
     )
 
+@Client.on_message(
+    filters.me & (filters.command(["HBD"], ".") | filters.regex("^alpha"))
+)
+async def hello_world(client: Client, message: Message):
+    mg = await edit_or_reply(message, "🎂")
+    await asyncio.sleep(0.3)
+    await mg.edit("𝐇𝐀𝐏𝐏𝐘 𝐁𝐈𝐑𝐓𝐇𝐃𝐀𝐘 🎂")
+    await asyncio.sleep(0.4)
+    await mg.edit("𝐃𝐄𝐀𝐑 💕")
+    await asyncio.sleep(0.3)
+    await mg.edit("𝐌𝐀𝐘 𝐆𝐎𝐃 𝐁𝐋𝐄𝐒𝐒 𝐘𝐎𝐔 😌")
+    await asyncio.sleep(0.4)
+    await mg.edit("𝐀𝐋𝐖𝐘𝐒 𝐁𝐄 𝐇𝐀𝐏𝐏𝐘 🫶")
+    await asyncio.sleep(0.3)
+    await mg.edit("𝐍𝐃 𝐃𝐎 𝐅𝐔𝐍 🥹")
+    await asyncio.sleep(0.4)
+    await mg.edit("𝐄𝐍𝐉𝐎𝐘 𝐔𝐑 𝐃𝐀𝐘 🤓🌷")
+    await asyncio.sleep(0.3) 
+    await mg.edit("🎂")
+    await asyncio.sleep(0.3) 
+    await mg.edit(" 𝐇𝐚𝐩𝐩𝐲 𝐁𝐢𝐫𝐭𝐡𝐝𝐚𝐲, 𝐲𝐨𝐮 𝐜𝐮𝐭𝐞 𝐬𝐮𝐧𝐬𝐡𝐢𝐧𝐞! 🎉🎂 𝐓𝐨𝐝𝐚𝐲’𝐬 𝐚𝐥𝐥 𝐚𝐛𝐨𝐮𝐭 𝐲𝐨𝐮, 𝐰𝐢𝐭𝐡 𝐥𝐨𝐭𝐬 𝐨𝐟 𝐥𝐨𝐯𝐞 𝐚𝐧𝐝 𝐬𝐰𝐞𝐞𝐭 𝐯𝐢𝐛𝐞𝐬! 🥳💕 𝐌𝐚𝐲 𝐲𝐨𝐮𝐫 𝐝𝐚𝐲 𝐛𝐞 𝐩𝐚𝐜𝐤𝐞𝐝 𝐰𝐢𝐭𝐡 𝐥𝐚𝐮𝐠𝐡𝐬, 𝐲𝐮𝐦𝐦𝐲 𝐭𝐫𝐞𝐚𝐭𝐬, 𝐚𝐧𝐝 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐡𝐚𝐩𝐩𝐢𝐧𝐞𝐬𝐬! 🌈🎁 𝐘𝐨𝐮𝐫 𝐬𝐦𝐢𝐥𝐞 𝐦𝐚𝐤𝐞𝐬 𝐞𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐛𝐫𝐢𝐠𝐡𝐭𝐞𝐫, 𝐚𝐧𝐝 𝐈 𝐰𝐢𝐬𝐡 𝐲𝐨𝐮 𝐚 𝐲𝐞𝐚𝐫 𝐟𝐮𝐥𝐥 𝐨𝐟 𝐦𝐚𝐠𝐢𝐜 𝐚𝐧𝐝 𝐝𝐫𝐞𝐚𝐦𝐬! 🦋✨ 𝐇𝐞𝐫𝐞’𝐬 𝐭𝐨 𝐚 𝐬𝐮𝐩𝐞𝐫 𝐟𝐮𝐧 𝐛𝐢𝐫𝐭𝐡𝐝𝐚𝐲 𝐰𝐢𝐭𝐡 𝐥𝐨𝐭𝐬 𝐨𝐟 𝐜𝐮𝐝𝐝𝐥𝐞𝐬! 🧁🎈 𝐋𝐨𝐯𝐞 𝐲𝐨𝐮! 😘💖 [𝐁𝐘 𝐅𝐀𝐃𝐄𝐃 🤓🌷] ")
+
+   ) 
 
 @Client.on_message(filters.command("delete", ".") & filters.me)
 async def dornembak(client: Client, message: Message):
