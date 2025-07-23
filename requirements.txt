@@ -4,6 +4,7 @@ aiohttp
 aiofiles
 bs4
 googlesearch-python==1.0.1
+googlesearch-python
 gitpython
 humanize
 httpx
@@ -23,3 +24,4 @@ speedtest-cli==2.1.3
 tgcrypto 
 telegraph
 uwuify
+MukeshAPI
