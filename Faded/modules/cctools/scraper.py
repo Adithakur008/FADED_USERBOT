@@ -16,7 +16,7 @@ _SCRTXT = """
 
 
 🥷 **Scrapped By ->** {}
-👨‍🎤 **Developed By ->** @AB4OUT_ME 🐲
+👨‍🎤 **Developed By ->** @ikfaded 🐲
 """
 
 
