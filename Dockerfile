@@ -1,17 +1,21 @@
-FROM python:3.9.7-slim-buster
+FROM python:3.11-slim
 
-RUN apt-get update && apt-get upgrade -y
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
 
-RUN apt-get install git curl python3-pip ffmpeg -y
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    git \
+    curl \
+    ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install -U pip
+WORKDIR /app
 
-RUN python3 -m pip install --upgrade pip
+COPY requirements.txt .
 
-COPY . /app/
+RUN pip install --no-cache-dir -r requirements.txt
 
-WORKDIR /app/
+COPY . .
 
-RUN pip3 install -U -r requirements.txt
-
-CMD ["bash","start.sh"]
+CMD ["python", "main.py"]
